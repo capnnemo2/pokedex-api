@@ -1,6 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const morgan = require("morgan");
+const POKEDEX = require("./pokedex.json");
 
 console.log(process.env.API_TOKEN);
 
